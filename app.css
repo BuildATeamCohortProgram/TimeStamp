@@ -1,12 +1,17 @@
 /* credit @planetoftheweb */
 
 @import url('../../node_modules/bootstrap/dist/css/bootstrap.css');
+@import url('https://fonts.googleapis.com/css?family=Karla|Raleway');
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 html {
   box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', 'Karla', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
